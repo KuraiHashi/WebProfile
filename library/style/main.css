@@ -1,0 +1,207 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+  color: #071C4D;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+nav {
+  position: relative;
+  z-index: 1;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  color: #071C4D;
+}
+.navbar .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  color: #071C4D;
+}
+
+.btn-login {
+  background-color: #071C4D;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #0d2a6e;
+  color: #fff;
+}
+
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -8px !important;
+  margin-right: -16px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+header {
+  margin-top: -78px;
+  padding: 180px 0 165px;
+  background-image: url("../img/pexels-pixabay-416676.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header p, header h1 {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+header h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+header p {
+  font-size: 20px;
+}
+header .btn-get-started {
+  background-color: #ff923e;
+  color: white;
+}
+header .btn-get-started:hover {
+  background-color: #fc8a34;
+  color: #0d2a6e;
+}
+
+.sect-statistik {
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+.sect-statistik .status-detail {
+  padding-top: 15px;
+  background-color: #fff;
+  padding-left: 40px;
+}
+.sect-statistik .status-detail h2 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+.sect-statistik .status-detail p {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.section-popular {
+  min-height: 540px;
+  background-color: #051334;
+  margin-top: -50px;
+  margin-bottom: -230px;
+}
+.section-popular .section-popular-heading {
+  margin-top: 150px;
+}
+.section-popular .section-popular-heading h1, .section-popular .section-popular-heading p {
+  color: #fff;
+}
+.section-popular .section-popular-heading h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-popular .section-popular-heading p {
+  font-size: 18px;
+}
+
+.sect-pop-content .sec-pop-travel .card-travel {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+.sect-pop-content .sec-pop-travel .travel-country {
+  font-size: 18px;
+  color: #fff;
+}
+.sect-pop-content .sec-pop-travel .travel-location {
+  font-size: 26px;
+  color: #fff;
+}
+.sect-pop-content .sec-pop-travel .travel-button .btn-travel-details {
+  background-color: #ff923e;
+  color: #fff;
+}
+.sect-pop-content .sec-pop-travel .travel-button .btn-travel-details:hover {
+  background-color: #fc8a34;
+  color: #fff;
+}
+
+.sect-network {
+  background-color: #fff;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 20px;
+}
+.sect-network h2 {
+  font-weight: bold;
+}
+.sect-network img {
+  max-width: 100%;
+}
+
+.sect-testimonial-heading {
+  padding-top: 50px;
+  min-height: 500px;
+}
+.sect-testimonial-heading h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.sect-tes-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.sect-tes-content .card-testimonial {
+  padding: 40px 20px 10px;
+  margin-bottom: 20px;
+}
+.sect-tes-content .card-testimonial .test-kontent {
+  min-height: 380px;
+}
+.sect-tes-content .card-testimonial .test-kontent h3 {
+  margin-top: -10px;
+  font-size: 32px;
+}
+.sect-tes-content .card-testimonial .test-kontent .testimoni {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 26px;
+  color: #6E6E6E;
+  min-height: 200px;
+}
+.sect-tes-content .card-testimonial .test-kontent .trip-to {
+  font-weight: normal;
+  font-size: 22px;
+  color: #6E6E6E;
+}
+.sect-tes-content .card-testimonial .test-kontent hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.sect-tes-content .btn-need-help {
+  background-color: #F2F2F2;
+  color: #C3C3C3;
+}
+.sect-tes-content .btn-need-help:hover {
+  background-color: #e0e0e0;
+  color: #fff;
+}
+.sect-tes-content .btn-get-started {
+  background-color: #FF9E53;
+  color: #fff;
+}
+.sect-tes-content .btn-get-started:hover {
+  background-color: #fc8a34;
+  color: #071C4D;
+}
+
+.sect-footer a {
+  color: #071C4D;
+  text-decoration: none;
+  font-weight: lighter;
+}/*# sourceMappingURL=main.css.map */
